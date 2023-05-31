@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/extra/spoiler.css" />
+    <link rel="stylesheet" href="./css/stylesheet/index.css" />
+    <link rel="stylesheet" href="./css/extra/btn-up.css" />
+    <link rel="stylesheet" href="./css/extra/itc-slider.css" />
+    <link rel="stylesheet" href="./css/extra/index__slider.css" />
+    <script src="./js/btn-up.js"></script>
+    <script src="./js/menu-burger.js"></script>
+    <script src="./js/itc-slider.js" defer></script>
+    <script src="./js/close-hehe.js"></script>
+    <script src="./js/spoiler.js" defer></script>
+    <title>yumegu</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header__menu">
+        <h1 class="header__menu__name">
+          <a href="./index.html" title="yumegu">yumegu</a>
+        </h1>
+        <ul class="header__menu__list">
+          <li class="header__menu__list__item">
+            <a href="./index.html" title="Главная">Главная</a>
+          </li>
+          <li class="header__menu__list__item">
+            <a href="./about.html" title="О нас">О нас</a>
+            <span class="menu__arrow arrow">&#9658;</span>
+            <ul class="header__menu__dropdown">
+              <li>
+                <a href="./about.html#history" title="Наша история"
+                  >Наша история</a
+                >
+              </li>
+              <li>
+                <a href="./about.html#team" title="Наша команда"
+                  >Наша команда</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="header__menu__list__item">
+            <a href="./services.html" title="Услуги">Услуги</a>
+            <span class="menu__arrow arrow">&#9658;</span>
+            <ul class="header__menu__dropdown">
+              <li>
+                <a href="./services.html#photography" title="Фотография"
+                  >Фотография</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./services.html#video-production"
+                  title="Видеопроизводство"
+                  >Видео&shy;производство</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./services.html#design-and-branding"
+                  title="Дизайн и брендинг"
+                  >Дизайн и брендинг</a
+                >
+              </li>
+              <li>
+                <a href="./services.html#web-development" title="Веб-разработка"
+                  >Веб-разработка</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="header__menu__list__item">
+            <a href="./contacts.html" title="Контакты">Контакты</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <div class="container">
+          <section>
+            <h2>Добро пожаловать на наш сайт!</h2>
+            <div class="index__welcome">
+              <p>
+                Здесь вы найдете всю необходимую информацию о нашей компании.
+              </p>
+              <div class="button">
+                <a href="./about.html" alt="О нас">Узнать больше</a>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>Наши услуги</h2>
+            <div class="index__services">
+              <p>
+                Мы специализируемся на фотографии, видеопроизводстве, дизайне и
+                брендинге, а также веб-разработке. Наша команда предоставляет
+                услуги по созданию качественных фотосессий, видеороликов и
+                рекламных материалов, разработке уникального дизайна и брендинга
+                для вашего бизнеса, а также созданию продающих сайтов и
+                лендингов. Мы готовы помочь вам воплотить в жизнь любые идеи и
+                проекты, чтобы вы могли успешно развиваться и достигать своих
+                целей.
+              </p>
+
+              <div class="slider">
+                <div class="slider__container">
+                  <div
+                    class="itc-slider"
+                    data-autoplay="true"
+                    data-interval="5000"
+                    data-loop="true"
+                    data-refresh="true"
+                    data-slider="itc-slider"
+                  >
+                    <div class="itc-slider-wrapper">
+                      <div class="itc-slider-items">
+                        <!-- Начало 1 слайда -->
+                        <div class="itc-slider-item">
+                          <div class="card">
+                            <header class="card-header">
+                              <img
+                                alt="Изображение 1"
+                                class="card-img"
+                                height="250"
+                                loading="lazy"
+                                src="./images/photography.jpg"
+                                width="350"
+                              />
+                            </header>
+                            <h2 class="card-title">Фотография</h2>
+                            <footer class="card-footer">
+                              <a
+                                class="card-author"
+                                href="./services.html#photography"
+                                >Подробнее&rarr;</a
+                              >
+                            </footer>
+                          </div>
+                        </div>
+                        <!-- Конец 1 слайда -->
+                        <!-- Начало 2 слайда -->
+                        <div class="itc-slider-item">
+                          <div class="card">
+                            <header class="card-header">
+                              <img
+                                alt="Изображение 2"
+                                class="card-img"
+                                height="250"
+                                loading="lazy"
+                                src="./images/video-production.jpg"
+                                width="350"
+                              />
+                            </header>
+                            <h2 class="card-title">Видео&shy;производство</h2>
+                            <footer class="card-footer">
+                              <a
+                                class="card-author"
+                                href="./services.html#video-production"
+                                >Подробнее&rarr;</a
+                              >
+                            </footer>
+                          </div>
+                        </div>
+                        <!-- Конец 2 слайда -->
+                        <!-- Начало 3 слайда -->
+                        <div class="itc-slider-item">
+                          <div class="card">
+                            <header class="card-header">
+                              <img
+                                alt="Изображение 3"
+                                class="card-img"
+                                height="250"
+                                loading="lazy"
+                                src="./images/design-and-branding.jpg"
+                                width="350"
+                              />
+                            </header>
+                            <h2 class="card-title">Дизайн и брендинг</h2>
+                            <footer class="card-footer">
+                              <a
+                                class="card-author"
+                                href="./services.html#design-and-branding"
+                                >Подробнее&rarr;</a
+                              >
+                            </footer>
+                          </div>
+                        </div>
+                        <!-- Конец 3 слайда -->
+                        <!-- Начало 4 слайда -->
+                        <div class="itc-slider-item">
+                          <div class="card">
+                            <header class="card-header">
+                              <img
+                                alt="Изображение 4"
+                                class="card-img"
+                                height="250"
+                                loading="lazy"
+                                src="./images/web-development.jpg"
+                                width="350"
+                              />
+                            </header>
+                            <h2 class="card-title">Веб-разработка</h2>
+                            <footer class="card-footer">
+                              <a
+                                class="card-author"
+                                href="./services.html#web-development"
+                                >Подробнее&rarr;</a
+                              >
+                            </footer>
+                          </div>
+                        </div>
+                        <!-- Конец 4 слайда -->
+                      </div>
+                    </div>
+                    <button class="itc-slider-btn itc-slider-btn-prev"></button>
+                    <button class="itc-slider-btn itc-slider-btn-next"></button>
+                    <ol class="itc-slider-indicators">
+                      <li class="itc-slider-indicator" data-slide-to="0"></li>
+                      <li class="itc-slider-indicator" data-slide-to="1"></li>
+                      <li class="itc-slider-indicator" data-slide-to="2"></li>
+                      <li class="itc-slider-indicator" data-slide-to="3"></li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+
+              <div class="button">
+                <a href="./services.html" alt="Услуги"
+                  >Подробнее о наших услугах</a
+                >
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="hehe-block">
+          <div class="hehe-block-1">
+            <div class="hehe-block__header">
+              <img class="hehe-logo" src="./images/meowy-logo.png" alt="hehe" />
+              <div class="hehe-block__header__text">
+                <span class="hehe-block__name">Meowy</span>
+                <p class="hehe-block__link">uni.arasfon.ru</p>
+              </div>
+              <div class="close__button-1">
+                <span class="сlose-logo">&times;</span>
+              </div>
+            </div>
+            <a href="https://uni.arasfon.ru/">
+              <img
+                class="cat"
+                src="./images/cat-cafe.jpg"
+                alt="Красивый шпиц"
+              />
+
+              <p class="hehe-block__title">Котокафе вашей мечты!</p>
+              <p class="hehe-block__desc">
+                Приятная музыка, вкусная еда и очень-очень милые коты и кошки!
+              </p>
+            </a>
+          </div>
+          <div class="hehe-block-2">
+            <div class="hehe-block__header">
+              <img class="hehe-logo" src="./images/hehe-logo.png" alt="hehe" />
+              <div class="hehe-block__header__text">
+                <span class="hehe-block__name">Bon Ami</span>
+                <p class="hehe-block__link">rizhik228.github.io</p>
+              </div>
+              <div class="close__button-2">
+                <span class="сlose-logo">&times;</span>
+              </div>
+            </div>
+            <a href="https://rizhik228.github.io">
+              <img
+                class="dog"
+                src="./images/cute-spitz.jpg"
+                alt="Красивый шпиц"
+              />
+
+              <p class="hehe-block__title">Лапки, ушки и доза любви!</p>
+              <p class="hehe-block__desc">
+                Профессиональный груминг, уход и спа в премиум салоне. Ваш
+                любимец будет в восторге!
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <h1>yumegu &copy;&nbsp;2023</h1>
+        <a
+          class="footer__attributions"
+          href="./attributions.html"
+          title="Используемый контент"
+          ><u>Используемый контент</u></a
+        >
+      </div>
+      <div class="footer__list">
+        <div class="footer__list__item">
+          <a
+            class="footer__list__item__headline"
+            href="./index.html"
+            title="Главная"
+            >Главная</a
+          >
+        </div>
+        <div class="footer__list__item">
+          <a
+            class="footer__list__item__headline"
+            href="./about.html"
+            title="О нас"
+            >О нас</a
+          >
+          <a href="./about.html#history" title="Наша история">Наша история</a>
+          <a href="./about.html#team" title="Наша команда">Наша команда</a>
+        </div>
+        <div class="footer__list__item">
+          <a
+            class="footer__list__item__headline"
+            href="./services.html"
+            title="Услуги"
+            >Услуги</a
+          >
+          <a href="./services/gallery.html" title="Галерея">Галерея</a>
+          <a href="./services.html#photography" title="Фотография"
+            >Фотография</a
+          >
+          <a href="./services.html#video-production" title="Видеопроизводство"
+            >Видеопроизводство</a
+          >
+          <a
+            href="./services.html#design-and-branding"
+            title="Дизайн и брендинг"
+            >Дизайн и брендинг</a
+          >
+          <a href="./services.html#web-development" title="Веб-разработка"
+            >Веб-разработка</a
+          >
+        </div>
+        <div class="footer__list__item">
+          <a
+            class="footer__list__item__headline"
+            href="./contacts.html"
+            title="Контакты"
+            >Контакты</a
+          >
+          <span>+7 (999) 123-45-67</span>
+          <span>info@yumegu.ru</span>
+          <span>ул. Народного Ополчения, 32, Москва</span>
+          <div class="footer__social-network">
+            <a href="https://vk.com/kriokinetik"
+              ><img src="./images/vk-icon.png" alt="ВКонтакте"
+            /></a>
+            <a href="https://t.me/kriokinetik"
+              ><img src="./images/telegram-icon.png" alt="Telegram"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="btn-up btn-up_hide"></div>
+  </body>
+</html>
